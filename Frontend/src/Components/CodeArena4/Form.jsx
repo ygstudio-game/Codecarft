@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Send, Code, Upload, Smartphone, CheckCircle, Copy, User } from 'lucide-react';
-import qrcode from '../../assets/PaymentQRCode.jpg';
+import qrcode from '../../assets/PaymentQrcode.jpg';
 // Environment variables
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:3000";
 const UPI_ID = "rajshinde071006-1@okicici";  
