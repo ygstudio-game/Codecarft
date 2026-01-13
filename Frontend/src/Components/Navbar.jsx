@@ -7,7 +7,7 @@ const Navbar = () => {
     { name: "Home", link: "#" },
     { name: "About", link: "#about_club" },
     { name: "Team", link: "#team" },
-    { name: "CodeArena 3.0", link: "/events" },
+    { name: "CodeArena 4.0", link: "/events" },
     { name: "Contact", link: "#contact_us" },
   ];
 
