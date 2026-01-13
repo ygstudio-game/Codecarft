@@ -1,4 +1,4 @@
-// src/components/Form.jsx
+// src/Components/Form.jsx
 import React, { useState } from 'react';
 import { FaUpload, FaUserFriends, FaTrophy, FaCheck, FaCopy } from 'react-icons/fa';
 import "./form.css"

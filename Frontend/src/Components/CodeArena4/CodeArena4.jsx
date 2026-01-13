@@ -7,7 +7,6 @@ import {
   Smartphone, CheckCircle, Copy, User, 
   ExternalLink
 } from 'lucide-react';
-import { Input } from '../ui/Input';
  import { MagneticButton } from '../CodeArena4/MagneticButton';
 import { SpotlightCard } from '../CodeArena4/SpotlightCard';
 import { DecryptedText } from '../CodeArena4/DecryptedText';
