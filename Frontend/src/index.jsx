@@ -2,14 +2,14 @@ import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { Tooltip } from "bootstrap";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import MoreInfo from "./components/MoreInfo";
-import Organizers from "./components/Organizers";
-import Conduct from "./components/CodeOfConduct";
-import Contact from "./components/ContactUs";
-import Footer from "./components/Footer";
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import About from "./Components/About";
+import MoreInfo from "./Components/MoreInfo";
+import Organizers from "./Components/Organizers";
+import Conduct from "./Components/CodeOfConduct";
+import Contact from "./Components/ContactUs";
+import Footer from "./Components/Footer";
 import Team from "./Components/Team";
 import "./index.css"
 export default function index() {
