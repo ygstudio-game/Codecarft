@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { MatrixRain } from './MatrixRain';
-import { Github, Twitter, Linkedin, Mail } from 'lucide-react';
+import { Github, Twitter, Linkedin, Mail, Instagram } from 'lucide-react';
 
 export function Footer() {
   const [showMatrix, setShowMatrix] = useState(false);
@@ -69,27 +69,8 @@ export function Footer() {
           <div>
             <h4 className="text-base md:text-lg font-semibold mb-3 md:mb-4">Connect</h4>
             <div className="flex gap-3 md:gap-4 mb-4 md:mb-6">
-              <a
-                href="#"
-                className="w-9 h-9 md:w-10 md:h-10 bg-[#0a0a0a] border border-gray-800 rounded-lg flex items-center justify-center hover:border-[--logic-blue] hover:text-[--logic-blue] transition-all duration-300"
-                aria-label="GitHub"
-              >
-                <Github className="w-4 h-4 md:w-5 md:h-5" />
-              </a>
-              <a
-                href="#"
-                className="w-9 h-9 md:w-10 md:h-10 bg-[#0a0a0a] border border-gray-800 rounded-lg flex items-center justify-center hover:border-[--logic-blue] hover:text-[--logic-blue] transition-all duration-300"
-                aria-label="Twitter"
-              >
-                <Twitter className="w-4 h-4 md:w-5 md:h-5" />
-              </a>
-              <a
-                href="#"
-                className="w-9 h-9 md:w-10 md:h-10 bg-[#0a0a0a] border border-gray-800 rounded-lg flex items-center justify-center hover:border-[--logic-blue] hover:text-[--logic-blue] transition-all duration-300"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="w-4 h-4 md:w-5 md:h-5" />
-              </a>
+  
+     
               <a
                 href="#"
                 className="w-9 h-9 md:w-10 md:h-10 bg-[#0a0a0a] border border-gray-800 rounded-lg flex items-center justify-center hover:border-[--logic-blue] hover:text-[--logic-blue] transition-all duration-300"
@@ -97,28 +78,18 @@ export function Footer() {
               >
                 <Mail className="w-4 h-4 md:w-5 md:h-5" />
               </a>
+                    <a
+                href="https://www.instagram.com/codecraft.pccoer__/"
+                className="w-9 h-9 md:w-10 md:h-10 bg-[#0a0a0a] border border-gray-800 rounded-lg flex items-center justify-center hover:border-[--logic-blue] hover:text-[--logic-blue] transition-all duration-300"
+                aria-label="Instagram"
+              >
+                <Instagram className="w-4 h-4 md:w-5 md:h-5" />
+              </a>
             </div>
-            <p className="text-xs md:text-sm text-gray-500 font-mono">contact@codearena.dev</p>
           </div>
         </div>
 
-        {/* Bottom Bar */}
-        <div className="pt-6 md:pt-8 border-t border-gray-900 flex flex-col md:flex-row justify-between items-center gap-4 text-xs md:text-sm text-gray-500">
-          <div className="font-mono">
-            © 2026 CodeArena. All rights reserved.
-          </div>
-          <div className="flex gap-4 md:gap-6">
-            <a href="#" className="hover:text-[--logic-blue] transition-colors">
-              Privacy Policy
-            </a>
-            <a href="#" className="hover:text-[--logic-blue] transition-colors">
-              Terms of Service
-            </a>
-            <a href="#" className="hover:text-[--logic-blue] transition-colors">
-              Code of Conduct
-            </a>
-          </div>
-        </div>
+    
 
         {/* Decorative Element */}
         <div className="mt-6 md:mt-8 text-center">

@@ -13,7 +13,7 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 text-center max-w-5xl mx-auto">
         {/* Main Title */}
-        <motion.h1 
+        <motion.div 
           className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-bold mb-4 md:mb-6 tracking-tight"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -23,7 +23,7 @@ export function HeroSection() {
             text="CODEARENA 4.0" 
             className="bg-gradient-to-r from-[--logic-blue] via-white to-[--logic-blue] bg-clip-text text-transparent"
           />
-        </motion.h1>
+        </motion.div>
 
         {/* Subtitle */}
         <motion.p 
@@ -45,15 +45,15 @@ export function HeroSection() {
         >
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-[--logic-blue] rounded-full animate-pulse"></div>
-            <span>January 18, 2026</span>
+            <span>Feb 6, 2026</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-[--optimization-green] rounded-full animate-pulse"></div>
-            <span>Fully Virtual</span>
+            <span>Fully offline</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-[--complexity-red] rounded-full animate-pulse"></div>
-            <span>Teams of 2-3</span>
+            <span>Solo Teams</span>
           </div>
         </motion.div>
 
@@ -68,7 +68,7 @@ export function HeroSection() {
             onClick={() => document.getElementById('registration')?.scrollIntoView({ behavior: 'smooth' })}
           >
             <span className="flex items-center gap-2 md:gap-3 text-base md:text-lg font-semibold">
-              Deploy Your Team
+              Register
               <span className="text-xl md:text-2xl group-hover:translate-x-1 transition-transform">→</span>
             </span>
           </MagneticButton>
