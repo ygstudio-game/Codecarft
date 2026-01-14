@@ -1,24 +1,26 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { 
-  Github, Twitter, Linkedin, Mail, 
-  ChevronDown, Search, TrendingUp, Bug, 
-  Target, Zap, Code2, Send, Code, Upload, 
-  Smartphone, CheckCircle, Copy, User, 
+import {
+  Github, Twitter, Linkedin, Mail,
+  ChevronDown, Search, TrendingUp, Bug,
+  Target, Zap, Code2, Send, Code, Upload,
+  Smartphone, CheckCircle, Copy, User,
   ExternalLink
 } from 'lucide-react';
- import { MagneticButton } from '../CodeArena4/MagneticButton';
+import { MagneticButton } from '../CodeArena4/MagneticButton';
 import { SpotlightCard } from '../CodeArena4/SpotlightCard';
 import { DecryptedText } from '../CodeArena4/DecryptedText';
-import {LoadingScreen} from '../CodeArena4/LoadingScreen';
-import {MatrixRain} from '../CodeArena4/MatrixRain';
+import { LoadingScreen } from '../CodeArena4/LoadingScreen';
+import { MatrixRain } from '../CodeArena4/MatrixRain';
 import { RegistrationForm } from '../CodeArena4/Form';
-import {ArenaFlow} from '../CodeArena4/EventFlow';
-import {HeroSection} from '../CodeArena4/HeroSection';
-import {FeatureGrid} from '../CodeArena4/FeatureGrid';
-import {Footer} from '../CodeArena4/Footer';
-import {AnimatedGrid} from '../CodeArena4/AnimatedGrid';
+import { ArenaFlow } from '../CodeArena4/EventFlow';
+import { HeroSection } from '../CodeArena4/HeroSection';
+import { FeatureGrid } from '../CodeArena4/FeatureGrid';
+import { Footer } from '../CodeArena4/Footer';
+import { AnimatedGrid } from '../CodeArena4/AnimatedGrid';
 import PrizePodium from './PrizeSection';
+import { PageNavigation } from './PageNavigation';
+
 const GlobalStyles = () => (
   <style>{`
     :root {
@@ -62,7 +64,7 @@ export default function CodeArena4() {
   useEffect(() => {
     const timer = setInterval(() => {
       console.log(loading);
-      
+
     }, 2000);
     return () => clearInterval(timer);
   }, []);
@@ -79,15 +81,26 @@ export default function CodeArena4() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
           className="min-h-screen bg-[--void-black] text-white relative overflow-x-hidden">
+
+          <PageNavigation />
           <AnimatedGrid />
 
-             <HeroSection />
-          {/* <Navbar /> */}
-          <div id="arena-flow"> {/* Anchor for scroll to top/timeline */}
-             <ArenaFlow />
+          <div id="hero">
+            <HeroSection />
           </div>
-          <FeatureGrid />
-          <PrizePodium />
+
+          {/* <Navbar /> */}
+          {/* Scroll anchor handled internally in ArenaFlow component */}
+          <ArenaFlow />
+
+          <div id="features">
+            <FeatureGrid />
+          </div>
+
+          <div id="prizes">
+            <PrizePodium />
+          </div>
+
           {/* <RegistrationForm /> */}
           {/* --- GOOGLE FORM REGISTRATION SECTION --- */}
           <section id="registration" className="py-24 px-4 relative z-10">
@@ -102,13 +115,13 @@ export default function CodeArena4() {
                 <h2 className="text-3xl md:text-5xl font-bold mb-6">
                   Ready to Enter the <span className="text-[--logic-blue]">Arena?</span>
                 </h2>
-                
+
                 <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
                   Secure your spot in CodeArena 4.0. Fill out the registration form to finalize your participation.
                 </p>
 
                 <div className="flex justify-center">
-                  <MagneticButton 
+                  <MagneticButton
                     className="group px-8 py-4 bg-gradient-to-r from-[--logic-blue] to-blue-700 text-white rounded-lg font-bold text-lg flex items-center gap-3 shadow-[0_0_30px_rgba(0,122,255,0.4)] hover:shadow-[0_0_50px_rgba(0,122,255,0.6)] transition-all"
                     onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSfeslmsEYSNVSf_KNggPUvllXK5MyDqGZpAgMvj9dqH7XWmyA/viewform", '_blank')}
                   >
