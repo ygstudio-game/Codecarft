@@ -72,7 +72,7 @@ const timelineNodes = [
   {
     time: '02:30 - 03:00 PM',
     title: 'Prize Distribution',
-    description: 'Winners Announcement (Pool: ₹10,000)',
+    description: 'Winners Announcement (Pool: ₹9,000)',
     icon: <Trophy className="w-8 h-8" />,
     color: '#34C759', // Green
   },

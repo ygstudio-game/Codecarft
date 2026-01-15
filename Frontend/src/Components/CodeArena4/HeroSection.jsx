@@ -45,7 +45,7 @@ export function HeroSection() {
         >
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-[--logic-blue] rounded-full animate-pulse"></div>
-            <span>Feb 6, 2026</span>
+            <span>Feb 5, 2026</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-[--optimization-green] rounded-full animate-pulse"></div>
