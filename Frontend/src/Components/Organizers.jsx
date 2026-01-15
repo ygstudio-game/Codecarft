@@ -12,15 +12,15 @@ function Organizers() {
           <div className="row">
             <div className="col-lg-4 mx-auto my-3">
               <img
-                src="/images/hod-comp-dept-pccoer-2.jpg"
-                alt="Dr. Archana Ajit Chaugule"
+                src="/images/hod-comp-dept-pccoer-2.jpeg"
+                alt=" Dr Vijay A Kotkar"
                 height="300"
                 width="300"
                 style={{ border: "1px solid black" }}
                 className="img-fluid rounded-circle"
               />
               <h2 className="fw-normal" style={{ fontSize: 24, marginTop: 15 }}>
-                Dr. Archana Ajit Chaugule
+                 Dr Vijay A Kotkar
               </h2>
               <p style={{ fontSize: 20 }}>Chairperson</p>
             </div>
