@@ -25,7 +25,7 @@ const timelineNodes = [
   {
     time: '10:15 AM - 12:00 PM',
     title: 'Round 1: MindForge',
-    description: 'Conceptual Qualifier (25 Questions)',
+    description: 'Conceptual Qualifier',
     icon: <Brain className="w-8 h-8" />,
     color: '#007AFF', // Blue
     details: [
