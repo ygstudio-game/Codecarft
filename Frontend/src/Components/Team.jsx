@@ -3,55 +3,123 @@ import React from "react";
 const organizersData = [
   [
     {
-      name: "Pranav Nebhnani",
+      name: "Raj Shinde",
       role: "LEAD",
-      img: "/images/lead.png",
+      img: "/images/lead.jpg",
     },
     {
-      name: "Sejal Rathod",
+      name: "Saloni Sinha",
       role: "CO-LEAD",
-      img: "/images/co-lead.png",
+      img: "/images/co-lead.jpeg",
     },
     {
-      name: "Bhavesh Bhalerao",
-      role: "MARKETING HEAD",
-      img: "/images/marketing-head.png",
-    },
-  ],
-  [
-    {
-      name: "Advait Mandhare",
-      role: "EXECUTIVE HEAD",
-      img: "/images/executive-head.png",
-    },
-    {
-      name: "Shashank Khengre",
-      role: "SOCIAL MEDIA HEAD",
-      img: "/images/Social-Media_Head.png",
-    },
-    {
-      name: "Harsh Rabadiya",
-      role: "EDITORIAL HEAD",
-      img: "/images/Editorial-Head.png",
+      name: "Sumit Kadam",
+      role: "MEDIA HEAD",
+      img: "/images/media-head.jpeg",
     },
   ],
-  [
+    [
     {
-      name: "Aditi Kshirsagar",
-      role: "DESIGN HEAD",
-      img: "/images/design-head.png",
+      name: "Yadnyesh Borole",
+      role: "WEB HEAD",
+      img: "/images/WEB-head.png",
     },
     {
-      name: "Arnav Wani",
-      role: "EVENT & EXECUTION HEAD",
-      img: "/images/event-and-executive-head.png",
+      name: "Piyusha Amrutkar",
+      role: "WEB CO-HEAD",
+      img: "/images/WEB-cohead.jpg",
     },
     {
-      name: "Abhinandan Patil",
+      name: "Kajal Jain",
       role: "CP HEAD",
-      img: "/images/cp-head.png",
+      img: "/images/cp-head.jpg",
     },
   ],
+  [
+    {
+      name: "Gauri Singhal ",
+      role: "CP CO-HEAD",
+      img: "/images/cp-cohead.jpg",
+    },
+    {
+      name: "Sarthak  Pawar",
+      role: "TECHNICAL HEAD",
+      img: "/images/technical-head.jpg",
+    },
+    {
+      name: "Vedant Buwa",
+      role: "TECHNICAL CO-HEAD",
+      img: "/images/technical-cohead.jpeg",
+    },
+  ],
+    [
+    {
+      name: " Suhan Kansara",
+      role: "EVENT HEAD",
+      img: "/images/event-head.jpg",
+    },
+    {
+      name: "Anushka Bhujbal",
+      role: "EVENT CO-HEAD",
+      img: "/images/event-cohead.jpg",
+    },
+    {
+      name: "Shreyas Pawar",
+      role: "MARKETING HEAD",
+      img: "/images/marketing-head.jpg",
+    },
+  ],
+  [
+  {
+      name: "Rajshree Karlekar",
+      role: "MARKETING CO-HEAD",
+      img: "/images/marketing-cohead.jpg",
+    },
+    {
+      name: "Rajat Poddar",
+      role: "EXECUTIVE HEAD",
+      img: "/images/executive-head.jpeg",
+    },
+ 
+      {
+        name: "Krushna Pawar",
+        role: "EXECUTIVE COHEAD",
+      img: "/images/executive-cohead.jpg",
+    },
+      ],
+    [
+    {
+      name: "Sarthak Chaudhari",
+      role: "SOCIAL MEDIA HEAD",
+      img: "/images/Social-Media_Head.jpeg",
+    },
+    ,
+    {
+      name: "Atharva Mane",
+      role: "SOCIAL MEDIA CO-HEAD",
+      img: "/images/Social-Media_coHead.jpg",
+    },
+
+    {
+      name: "Parth Shinde",
+      role: "EDITORIAL HEAD",
+      img: "/images/Editorial-Head.jpg",
+    },
+  ],
+  [
+    {
+      name: "Soham Patil",
+      role: "DESIGN HEAD",
+      img: "/images/design-head.jpg",
+    },
+    {
+      name: "Anisha Agrawal",
+      role: "DESIGN CO-HEAD",
+      img: "/images/design-cohead.jpg",
+    },
+  ],
+ 
+ 
 ];
 
 const Team = () => {
