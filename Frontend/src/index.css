@@ -1,10 +1,67 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700;800;900&family=Lexend+Deca:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
 
 @custom-variant dark (&:is(.dark *));
+
+:root {
+  /* 3D Cyber-Glass Palette */
+  --color-dark-ink: #0C0F14;
+  --color-emerald-neo: #0F6F54;
+  --color-mint-blast: #78FFCF;
+  --color-rose-ember: #D64545;
+  --color-sand-glow: #F2D4A6;
+  --color-graphite-blue: #1B2430;
+  --color-crystal-white: #F7F9F7;
+
+  /* Basic setup */
+  --color-background: var(--color-dark-ink);
+  --color-foreground: var(--color-crystal-white);
+  
+  --shadow-neon-glow: 0 0 15px rgba(120, 255, 207, 0.4), 0 0 30px rgba(120, 255, 207, 0.2);
+  --shadow-glass-depth: inset 2px 2px 5px rgba(255, 255, 255, 0.1), inset -2px -2px 5px rgba(0, 0, 0, 0.5), 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+@theme inline {
+  --color-dark-ink: var(--color-dark-ink);
+  --color-emerald-neo: var(--color-emerald-neo);
+  --color-mint-blast: var(--color-mint-blast);
+  --color-rose-ember: var(--color-rose-ember);
+  --color-sand-glow: var(--color-sand-glow);
+  --color-graphite-blue: var(--color-graphite-blue);
+  --color-crystal-white: var(--color-crystal-white);
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --shadow-neon: var(--shadow-neon-glow);
+  --shadow-glass: var(--shadow-glass-depth);
+  --font-mono: 'Fira Code', 'Courier New', monospace;
+}
+
+body {
+  background-color: var(--color-dark-ink);
+  color: var(--color-crystal-white);
+  margin: 0;
+  /* Hide standard cursor to use CustomCursor */
+  cursor: none; 
+  overflow-x: hidden;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Base interactive elements should also hide cursor */
+a, button, input, textarea, select {
+  cursor: none;
+}
+
+/* Utility to unhide cursor on mobile if needed but for desktop we want none */
+@media (pointer: coarse) {
+  body, a, button, input, textarea, select {
+    cursor: auto;
+  }
+}
+
 .loader {
-  border: 3px solid #f3f3f3;
-  border-top: 3px solid #3498db;
+  border: 3px solid rgba(255,255,255,0.1);
+  border-top: 3px solid var(--color-mint-blast);
   border-radius: 50%;
   width: 16px;
   height: 16px;
@@ -15,49 +72,6 @@
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-
-:root {
-    --bs-dark-color: #1a1d20;
-    --bs-dark-primary: #1c1c1c;
-    --bs-main-color: #fff;
-    --bs-primary-color: #c6c6c6;
-    --secondary-color: #29a9fd;
-    --bs-supporting-color: #C850C0;
-    --radius: 0.625rem;
-    --background: oklch(1 0 0);
-    --foreground: oklch(0.145 0 0);
-    --card: oklch(1 0 0);
-    --card-foreground: oklch(0.145 0 0);
-    --popover: oklch(1 0 0);
-    --popover-foreground: oklch(0.145 0 0);
-    --primary: oklch(0.205 0 0);
-    --primary-foreground: oklch(0.985 0 0);
-    --secondary: oklch(0.97 0 0);
-    --secondary-foreground: oklch(0.205 0 0);
-    --muted: oklch(0.97 0 0);
-    --muted-foreground: oklch(0.556 0 0);
-    --accent: oklch(0.97 0 0);
-    --accent-foreground: oklch(0.205 0 0);
-    --destructive: oklch(0.577 0.245 27.325);
-    --border: oklch(0.922 0 0);
-    --input: oklch(0.922 0 0);
-    --ring: oklch(0.708 0 0);
-    --chart-1: oklch(0.646 0.222 41.116);
-    --chart-2: oklch(0.6 0.118 184.704);
-    --chart-3: oklch(0.398 0.07 227.392);
-    --chart-4: oklch(0.828 0.189 84.429);
-    --chart-5: oklch(0.769 0.188 70.08);
-    --sidebar: oklch(0.985 0 0);
-    --sidebar-foreground: oklch(0.145 0 0);
-    --sidebar-primary: oklch(0.205 0 0);
-    --sidebar-primary-foreground: oklch(0.985 0 0);
-    --sidebar-accent: oklch(0.97 0 0);
-    --sidebar-accent-foreground: oklch(0.205 0 0);
-    --sidebar-border: oklch(0.922 0 0);
-    --sidebar-ring: oklch(0.708 0 0);
-}
-
-h1,
 h2,
 h3,
 h4,
@@ -588,8 +602,8 @@ a {
   --radius-2xl: calc(var(--radius) + 8px);
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background: var(--color-frost-graphite, #1A1C1E);
+  --color-foreground: #ffffff;
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
   --color-popover: var(--popover);
