@@ -74,7 +74,6 @@ export const teamMembers = [
 ];
 
 export const eventsList = [
-  { id: "codearena-3", title: "CodeArena 3.0", desc: "The legendary coding battle returns. Bigger and better.", type: "internal", link: "events/codearena-3" },
   { id: "college-rivals", title: "College Rivals", desc: "Inter-college coding championship to prove who is the best.", type: "internal", link: "events/college-rivals" },
   { id: "codearena-4", title: "CodeArena 4.0", desc: "Next-gen algorithms and competitive programming arena.", type: "external", link: "https://codearena4.xyz" },
   { id: "code-with-us", title: "Code With Us", desc: "Weekly coding sessions for junior developers.", type: "internal", link: "events/code-with-us" },

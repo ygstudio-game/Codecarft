@@ -10,18 +10,12 @@ const CollegeRivals = () => {
   ];
 
   const galleryPlaceholders = [
-    "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=800&auto=format&fit=crop"
+    "/images/college-rivals-1.png",
+    "/images/college-rivals-2.png",
+    "/images/college-rivals-3.png",
+    "/images/college-rivals-4.jpeg"
   ];
 
-  const sponsorsPlaceholders = [
-    "Sponsor 1",
-    "Sponsor 2",
-    "Sponsor 3",
-    "Sponsor 4"
-  ];
 
   return (
     <div className="min-h-screen bg-[var(--color-dark-ink)] text-white pt-24 pb-16 overflow-hidden relative">
@@ -53,10 +47,10 @@ const CollegeRivals = () => {
             </h2>
             <div className="bg-white/[0.02] backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-[0_20px_40px_rgba(0,0,0,0.5)]">
               <p className="text-lg leading-relaxed text-gray-400 font-medium font-sans">
-                (Having covered 8500+ kilometers in cities such as Delhi, Hyderabad, and Bengaluru, the mobile gaming truck by ‘College Rivals’ has now arrived in Pune. Here, it will oversee player selections and provide an immersive gaming experience.)
+                Having covered 8500+ kilometers in cities such as Delhi, Hyderabad, and Bengaluru, the mobile gaming truck by ‘College Rivals’ has now arrived in Pune. Here, it will oversee player selections and provide an immersive gaming experience.
               </p>
               <p className="mt-4 text-lg leading-relaxed text-gray-400 font-medium font-sans">
-                More detailed information about the event format, schedule, and featured games will be announced soon. Stay tuned for exciting updates!
+                More detailed information about the event format, schedule, and featured games follow instagram or click on know more.
               </p>
 
               <div className="mt-10 flex gap-4 flex-wrap">
@@ -142,28 +136,7 @@ const CollegeRivals = () => {
             </div>
           </section>
 
-          <section>
-            <h2 className="text-3xl font-black mb-6 flex items-center text-white tracking-tight">
-              <span className="w-2 h-8 bg-[var(--color-emerald-neo)] mr-4 rounded-full shadow-[0_0_10px_var(--color-emerald-neo)]"></span>
-              Our Sponsors
-            </h2>
-
-            <div className="bg-white/[0.02] backdrop-blur-xl border border-white/10 rounded-[2rem] p-6 shadow-[0_20px_40px_rgba(0,0,0,0.5)] flex flex-col gap-4">
-              {sponsorsPlaceholders.map((sponsor, idx) => (
-                <div
-                  key={idx}
-                  className="flex items-center justify-center p-6 rounded-2xl transition-all duration-500 bg-white/5 border border-white/5 hover:bg-white/10 hover:translate-x-2"
-                >
-                  <span className="font-bold text-xl tracking-wide text-gray-400">
-                    {sponsor}
-                  </span>
-                </div>
-              ))}
-              <div className="mt-4 p-4 text-center border border-dashed border-gray-600 rounded-xl">
-                <p className="text-sm text-gray-500">More sponsors to be revealed later!</p>
-              </div>
-            </div>
-          </section>
+          
         </div>
 
       </div>
