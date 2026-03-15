@@ -70,7 +70,7 @@ const winners = [
     time: "45 mins",
     place: "1st Place",
     track: "Gold",
-    image: "/images/winners/winner1.JPG",
+    image: "/images/winners/ca3img1.JPG",
     icon: <Trophy className="w-8 h-8 text-yellow-400" />,
     gradient: "from-yellow-400/20 to-yellow-600/20",
     border: "border-yellow-400/30",
@@ -84,26 +84,26 @@ const winners = [
     time: "52 mins",
     place: "2nd Place",
     track: "Silver",
-    image: "/images/winners/winner2.JPG",
+    image: "/images/winners/ca3img2.png",
     icon: <Award className="w-8 h-8 text-gray-300" />,
     gradient: "from-gray-300/20 to-gray-500/20",
     border: "border-gray-300/30",
     delay: 0.2
   },
-  {
-    id: 3,
-    name: "Bronze Winner",
-    college: "PCCOER",
-    score: "92.5",
-    time: "58 mins",
-    place: "3rd Place",
-    track: "Bronze",
-    image: "/images/winners/winner3.JPG",
-    icon: <Star className="w-8 h-8 text-orange-400" />,
-    gradient: "from-orange-400/20 to-orange-600/20",
-    border: "border-orange-400/30",
-    delay: 0.4
-  }
+  // {
+  //   id: 3,
+  //   name: "Bronze Winner",
+  //   college: "PCCOER",
+  //   score: "92.5",
+  //   time: "58 mins",
+  //   place: "3rd Place",
+  //   track: "Bronze",
+  //   image: "/images/winners/winner3.JPG",
+  //   icon: <Star className="w-8 h-8 text-orange-400" />,
+  //   gradient: "from-orange-400/20 to-orange-600/20",
+  //   border: "border-orange-400/30",
+  //   delay: 0.4
+  // }
 ];
 
 /* --- PRIZES DATA --- */
