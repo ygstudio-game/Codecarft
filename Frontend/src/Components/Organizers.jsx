@@ -48,7 +48,7 @@ const FacultyCard = ({ member, index }) => {
           <img
             src={member.img}
             alt={member.name}
-            className="w-full h-full object-cover mix-blend-luminosity md:group-hover:mix-blend-normal transition-all duration-700 md:group-hover:scale-110"
+            className="w-full h-full object-contain mix-blend-luminosity md:group-hover:mix-blend-normal transition-all duration-700 md:group-hover:scale-110"
             onError={(e) => { e.target.src = "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=300&auto=format&fit=crop"; }}
           />
         </div>
