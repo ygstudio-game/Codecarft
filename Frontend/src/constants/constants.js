@@ -44,33 +44,35 @@ export const teamMembers = [
   { name: "Sumit Kadam", role: "MEDIA HEAD", team: "Leads", img: "/images/media-head.jpeg" },
   
   // Web Development
-  { name: "Yadnyesh Borole", role: "WEB HEAD", team: "Web Development", img: "/images/WEB-head.png" },
-  { name: "Piyusha Amrutkar", role: "WEB CO-HEAD", team: "Web Development", img: "/images/WEB-cohead.jpg" },
-  { name: "Kajal Jain", role: "CP HEAD", team: "Web Development", img: "/images/cp-head.jpg" },
+  { name: "Piyusha Amrutkar", role: "WEB HEAD", team: "Web Development", img: "/images/WEB-head.jpg" },
   
-  // Technical & CP
-  { name: "Gauri Singhal", role: "CP CO-HEAD", team: "Technical & CP", img: "/images/cp-cohead.jpg" },
-  { name: "Sarthak Pawar", role: "TECHNICAL HEAD", team: "Technical & CP", img: "/images/technical-head.jpg" },
-  { name: "Vedant Buwa", role: "TECHNICAL CO-HEAD", team: "Technical & CP", img: "/images/technical-cohead.jpeg" },
+  // CP
+  { name: "Kajal Jain", role: "CP HEAD", team: "Competitive Programming", img: "/images/cp-head.jpg" },
+  { name: "Gauri Singhal", role: "CP CO-HEAD", team: "Competitive Programming", img: "/images/cp-cohead.jpg" },
+
+  // Technical
+  { name: "Sarthak Pawar", role: "TECHNICAL HEAD", team: "Technical", img: "/images/technical-head.jpg" },
   
-  // Events & Marketing
-  { name: "Suhan Kansara", role: "EVENT HEAD", team: "Events & Marketing", img: "/images/event-head.jpg" },
-  { name: "Anushka Bhujbal", role: "EVENT CO-HEAD", team: "Events & Marketing", img: "/images/event-cohead.jpg" },
-  { name: "Shreyas Pawar", role: "MARKETING HEAD", team: "Events & Marketing", img: "/images/marketing-head.jpg" },
+  // Events 
+  { name: "Ronit Singh", role: "EVENT HEAD", team: "Events Team", img: "/images/event-head.jpg" },
+  { name: "Somesh Thakare", role: "EVENT CO-HEAD", team: "Events Team", img: "/images/event-cohead.jpg" },
+
+  // Marketing
+  { name: "Elaakshi Walondre", role: "MARKETING HEAD", team: "Marketing Team", img: "/images/marketing-head.jpg" },
+  { name: "Akshada Sandhanshiv", role: "MARKETING CO-HEAD", team: "Marketing Team", img: "/images/marketing-cohead.jpg" },
   
   // Executive Team
-  { name: "Rajshree Karlekar", role: "MARKETING CO-HEAD", team: "Executive Team", img: "/images/marketing-cohead.jpg" },
   { name: "Rajat Poddar", role: "EXECUTIVE HEAD", team: "Executive Team", img: "/images/executive-head.jpeg" },
   { name: "Krushna Pawar", role: "EXECUTIVE CO-HEAD", team: "Executive Team", img: "/images/executive-cohead.jpg" },
   
-  // Social Media & Editorial
-  { name: "Sarthak Chaudhari", role: "SOCIAL MEDIA HEAD", team: "Social Media & Editorial", img: "/images/Social-Media_Head.jpeg" },
-  { name: "Atharva Mane", role: "SOCIAL MEDIA CO-HEAD", team: "Social Media & Editorial", img: "/images/Social-Media_coHead.jpg" },
+  // Social Media 
+  { name: "Atharva Mane", role: "SOCIAL MEDIA HEAD", team: "Social Media & Editorial", img: "/images/Social-Media_Head.jpeg" },
+
+  // Editorial
   { name: "Parth Shinde", role: "EDITORIAL HEAD", team: "Social Media & Editorial", img: "/images/Editorial-Head.jpg" },
   
   // Design
   { name: "Soham Patil", role: "DESIGN HEAD", team: "Design", img: "/images/design-head.jpg" },
-  { name: "Anisha Agrawal", role: "DESIGN CO-HEAD", team: "Design", img: "/images/design-cohead.jpg" },
 ];
 
 export const eventsList = [
