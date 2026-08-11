@@ -66,7 +66,7 @@ export const teamMembers = [
   { name: "Krushna Pawar", role: "EXECUTIVE CO-HEAD", team: "Executive Team", img: "/images/executive-cohead.jpg" },
   
   // Social Media 
-  { name: "Atharva Mane", role: "SOCIAL MEDIA HEAD", team: "Social Media & Editorial", img: "/images/Social-Media_Head.jpeg" },
+  { name: "Atharva Mane", role: "SOCIAL MEDIA HEAD", team: "Social Media & Editorial", img: "/images/Social-Media_Head.jpg" },
 
   // Editorial
   { name: "Parth Shinde", role: "EDITORIAL HEAD", team: "Social Media & Editorial", img: "/images/Editorial-Head.jpg" },
