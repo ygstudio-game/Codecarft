@@ -51,7 +51,7 @@ export const teamMembers = [
   { name: "Gauri Singhal", role: "CP CO-HEAD", team: "Competitive Programming", img: "/images/cp-cohead.jpg" },
 
   // Technical
-  { name: "Sarthak Pawar", role: "TECHNICAL HEAD", team: "Technical", img: "/images/technical-head.jpg" },
+  { name: "Sarthak Pawar", role: "TECHNICAL HEAD", team: "Technical Team", img: "/images/technical-head.jpg" },
   
   // Events 
   { name: "Ronit Singh", role: "EVENT HEAD", team: "Events Team", img: "/images/event-head.jpg" },
@@ -66,13 +66,209 @@ export const teamMembers = [
   { name: "Krushna Pawar", role: "EXECUTIVE CO-HEAD", team: "Executive Team", img: "/images/executive-cohead.jpg" },
   
   // Social Media 
-  { name: "Atharva Mane", role: "SOCIAL MEDIA HEAD", team: "Social Media & Editorial", img: "/images/Social-Media_Head.jpg" },
+  { name: "Atharva Mane", role: "SOCIAL MEDIA HEAD", team: "Social Media Team", img: "/images/Social-Media_Head.jpg" },
 
   // Editorial
-  { name: "Parth Shinde", role: "EDITORIAL HEAD", team: "Social Media & Editorial", img: "/images/Editorial-Head.jpg" },
+  { name: "Parth Shinde", role: "EDITORIAL HEAD", team: "Editorial Team", img: "/images/Editorial-Head.jpg" },
   
   // Design
-  { name: "Soham Patil", role: "DESIGN HEAD", team: "Design", img: "/images/design-head.jpg" },
+  { name: "Soham Patil", role: "DESIGN HEAD", team: "Design Team", img: "/images/design-head.jpg" },
+];
+
+export const clubMembers = [
+  {
+    name: "Arshaan Darga",
+    team: "Marketing Team",
+    role: "Member",
+    img: "/images/Arshaan.png",
+  },
+  {
+    name: "Warisha Ahmad",
+    team: "Marketing Team",
+    role: "Member",
+    img: "/images/Warisha.jpg",
+  },
+  {
+    name: "Aneesh Athawale",
+    team: "Technical Team",
+    role: "Member",
+    img: "/images/Aneesh.jpg",
+  },
+  {
+    name: "Nandini Sharad Pate",
+    team: "Web Development",
+    role: "Member",
+    img: "/images/Nandini.jpg",
+  },
+  {
+    name: "Steve Jibu",
+    team: "Competitive Programming",
+    role: "Member",
+    img: "/images/Steve.png",
+  },
+  {
+    name: "Anushka Patil",
+    team: "Marketing Team",
+    role: "Member",
+    img: "/images/anushka.jpg",
+  },
+  {
+    name: "Varsha Vijaykumar Jairam",
+    team: "Executive Team",
+    role: "Member",
+    img: "/images/Varsha.jpeg",
+  },
+  {
+    name: "Krishna Sunil Jaiswal",
+    team: "Competitive Programming",
+    role: "Member",
+    img: "/images/Krishna.jpg",
+  },
+  {
+    name: "Omkar Bhujbal",
+    team: "Technical Team",
+    role: "Member",
+    img: "/images/Omkar.jpg",
+  },
+  {
+    name: "Krish Chetan Bhavsar",
+    team: "Social Media Team",
+    role: "Member",
+    img: "/images/KRISH.jpg",
+  },
+  {
+    name: "Ameya Bobade",
+    team: "Design Team",
+    role: "Member",
+    img: "/images/Ameya.jpeg",
+  },
+  {
+    name: "Atharva Ambekar",
+    team: "Events Team",
+    role: "Member",
+    img: "/images/Atharva.jpg",
+  },
+  {
+    name: "Om Suresh Dhage",
+    team: "Web Development",
+    role: "Member",
+    img: "/images/Om.png",
+  },
+  {
+    name: "Manas Tandale",
+    team: "Competitive Programming",
+    role: "Member",
+    img: "/images/Manas.jpg",
+  },
+  {
+    name: "Radhika Nandkishor Nandurkar",
+    team: "Design Team",
+    role: "Member",
+    img: "/images/Radhika.jpg",
+  },
+  {
+    name: "Himani Ramdas Nimje",
+    team: "Marketing Team",
+    role: "Member",
+    img: "/images/Himani.jpg",
+  },
+  {
+    name: "Yash Rajbhog",
+    team: "Social Media Team",
+    role: "Member",
+    img: "/images/Yash.jpg",
+  },
+  {
+    name: "Anuja M Pandey",
+    team: "Events Team",
+    role: "Member",
+    img: "/images/Anuja.jpg",
+  },
+  {
+    name: "Utkarsha More",
+    team: "Executive Team",
+    role: "Member",
+    img: "/images/Utkarsha.jpeg",
+  },
+  {
+    name: "Shreyas Aher",
+    team: "Executive Team",
+    role: "Member",
+    img: "/images/Shreyas.jpeg",
+  },
+  {
+    name: "Ayush More",
+    team: "Executive Team",
+    role: "Member",
+    img: "/images/Ayush.jpeg",
+  },
+
+  {
+    name: "Shrawani Vinayak Narkhedkar",
+    team: "Events Team",
+    role: "Member",
+    img: "/images/Shrawani Narkhedkar.jpeg",
+  },
+  {
+    name: "Komal Shashikant Naik",
+    team: "Editorial Team",
+    role: "Member",
+    img: "/images/Komal.jpg",
+  },
+  {
+    name: "Vedant Shivram Kawle",
+    team: "Web Development",
+    role: "Member",
+    img: "/images/Vedant.jpeg",
+  },
+  {
+    name: "Shirish Sontakke",
+    team: "Design Team",
+    role: "Member",
+    img: "/images/Shirish.jpg",
+  },
+  {
+    name: "Sayali Anil Bhagat",
+    team: "Marketing Team",
+    role: "Member",
+    img: "/images/Sayali.jpg",
+  },
+  {
+    name: "Kenisha Narkhede",
+    team: "Marketing Team",
+    role: "Member",
+    img: "/images/Kenisha.jpeg",
+  },
+  {
+    name: "Aaditya Narendra Pathode",
+    team: "Social Media Team",
+    role: "Member",
+    img: "/images/Aaditya.jpg",
+  },
+  {
+    name: "Shravani Bapusaheb Murkute",
+    team: "Events Team",
+    role: "Member",
+    img: "/images/Shravani Murkute.jpg",
+  },
+  {
+    name: "Priyanka Nerikar",
+    team: "Design Team",
+    role: "Member",
+    img: "/images/Priyanka.jpeg",
+  },
+  {
+    name: "Pranav Patil",
+    team: "Social Media Team",
+    role: "Member",
+    img: "/images/Pranav.jpeg",
+  },
+  {
+    name: "Archit Badhan",
+    team: "Editorial Team",
+    role: "Member",
+    img: "/images/Archit.jpeg",
+  }
 ];
 
 export const eventsList = [

@@ -7,6 +7,7 @@ import Events from "./Components/Events.jsx";
 import Loader from "./Components/Systems/Loader.jsx";
 import CustomCursor from "./Components/Systems/CustomCursor.jsx";
 import ScrollIndicator from "./Components/Systems/ScrollIndicator.jsx";
+import TeamPage from "./Components/TeamPage.jsx";
 
 // Event Pages
 import CodeArena3 from "./Components/CodeArena3.jsx";
@@ -37,6 +38,7 @@ const App = () => {
           <Navbar />
           <Routes>
             <Route path="/" element={<IndexPage />} />
+            <Route path="/team" element={<TeamPage />} />
             <Route path="/events" element={<Events />} />
             <Route path="/events/codearena-3" element={<CodeArena3 />} />
             <Route path="/events/college-rivals" element={<CollegeRivals />} />
